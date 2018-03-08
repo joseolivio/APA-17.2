@@ -1,4 +1,0 @@
-all: SelectionSort.o
-
-SelectionSort.o: main.cpp
-	@g++ -o SelectionSort.o main.cpp
