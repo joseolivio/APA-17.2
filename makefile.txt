@@ -1,0 +1,4 @@
+all: InsertionSort.o
+
+InsertionSort.o: main.cpp
+	@g++ -o InsertionSort.o main.cpp
