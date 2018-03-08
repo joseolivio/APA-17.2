@@ -2,3 +2,8 @@ all: InsertionSort.o
 
 InsertionSort.o: InsertionSort.cpp
 	@g++ -o InsertionSort.o InsertionSort.cpp
+	
+all: SelectionSort.o
+
+SelectionSort.o: SeletionSort.cpp
+	@g++ -o SelectionSort.o SelectionSort.cpp
